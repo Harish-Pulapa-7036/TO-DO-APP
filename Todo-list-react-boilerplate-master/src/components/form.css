@@ -1,0 +1,55 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: white;
+    
+}
+.todoform{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+
+}
+input{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(18, 5, 54);
+    border: 2px solid blue;
+    color: aliceblue;
+
+}
+.ullist{
+   
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    /* justify-content: space-between; */
+    
+    box-sizing: border-box;
+    
+    /* align-items: center; */
+   
+
+
+}
+.lilist{
+    display: flex;
+    box-sizing: border-box;
+
+background-color: blue; 
+  border: 1px solid blue;
+  padding: 20px;
+  /* width: 450px; */
+  margin-bottom: 20px;
+}
+.todotext{
+   margin: 0 250px 0 0;
+   box-sizing: border-box;
+   flex: 1;
+
+}

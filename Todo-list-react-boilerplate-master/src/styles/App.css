@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(18, 5, 54);
+}
+h1 {
+    color: #27aedb;
+    text-align: center;
+    }
+    
+
+button{
+    color: #27aedb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-pink{
+	background-color:pink;
+}
